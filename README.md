@@ -10,7 +10,7 @@ Prints out training loss, validation loss, and validation accuracy as the networ
 
 Options:
 
-Set directory to save checkpoints: python train.py data_dir --save_dir save_directory
+Set directory to save checkpoints: python train.py data_dir --save_dir save_directory /n
 Choose architecture: python train.py data_dir --arch "vgg13"
 Set hyperparameters: python train.py data_dir --learning_rate 0.01 --hidden_units 512 --epochs 20
 Use GPU for training: python train.py data_dir --gpu
