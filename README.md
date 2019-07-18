@@ -5,7 +5,9 @@ Project code for Udacity's AI Programming with Python Nanodegree program. In thi
 # train.py
 
 Basic usage: python train.py data_directory
+
 Prints out training loss, validation loss, and validation accuracy as the network trains
+
 Options:
 Set directory to save checkpoints: python train.py data_dir --save_dir save_directory
 Choose architecture: python train.py data_dir --arch "vgg13"
